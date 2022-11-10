@@ -104,19 +104,17 @@ class Pizza{
   }
   getSize(){
     return this.size;
-  };
+  }
   getPrice(){
     return this.price;
-  };
+  }
   getExtraIngredients(){
     return this.extraIngredients;
   }
   getPizzaInfo(){
-    return `Size: ${this.size}, type: ${this.type}; extra ingredients: ${this.extraIngredients}; price: ${this.price}UAH.`
+return `Size: ${this.size}, type: ${this.type}; extra ingredients: ${this.extraIngredients}; price: ${this.price}UAH.`
   }
 }
-
-/* Sizes, types and extra ingredients */
 Pizza.SIZE_S = 'SMALL'
 Pizza.SIZE_M = 'MEDIUM'
 Pizza.SIZE_L = 'LARGE'
@@ -129,7 +127,6 @@ Pizza.EXTRA_TOMATOES = 'TOMATOES'
 Pizza.EXTRA_CHEESE = 'CHEESE'
 Pizza.EXTRA_MEAT = 'MEAT'
 
-/* Allowed properties */
 Pizza.allowedSizes = {
     SIZE_S : 'SMALL',
     SIZE_M : 'MEDIUM',
